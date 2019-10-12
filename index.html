@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Crystal Collecting Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row col-5">
+            <h1>Crystal Collector</h1>
+        </div>
+        <div class="row">
+            <div class="col-9" id="instructions">
+                <p>you will be given a random number at the start of the game
+                    there are four crystals below. By clicking on a crystal you
+                    will add a specific amount of points to your total score.</p>
+                <p>you win the game by matching your total score to a random
+                    number, you lose the game if your total score goes above the
+                    random number.</p>
+                <p>the value of each crystal will be hidden from you until you
+                    click on it.</p>
+                <p>each time when the game starts. the game will change the values
+                    of each crystal.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="randomNumber">
+            </div>
+            <div class="col-4">Your total score is:<span id="accScore"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 crashBox">
+                <img src="images/life.jpg" id="box1">
+            </div>
+            <div class="col-lg-3 crashBox">
+                <img src="images/nitro.jpg" id="box2">
+            </div>
+            <div class="col-lg-3 crashBox">
+                <img src="images/question.jpg" id="box3">
+            </div>
+            <div class="col-lg-3 crashBox">
+                <img src="images/wumpa.jpg" id="box4">
+            </div>
+        </div>
+        <div>wins:<span></span></div>
+        <div>Losses:<span></span></div>
+
+
+
+
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
