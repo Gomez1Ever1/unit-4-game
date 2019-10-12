@@ -1,0 +1,18 @@
+body, html{
+    height:100%;
+    font-size:20px;
+}
+.bg{
+    height:100%; 
+    background-image:url("images/crashback.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#randomNumber{
+    background-color: plum;
+    font-size: 50px;
+}
+#instructions{
+    background-color:blueviolet;
+}
